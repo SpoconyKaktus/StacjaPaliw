@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +8,28 @@
     <script src="style.css"></script>
 </head>
 <body>
-    
+    <header><h1>Całodobowa stacja paliw</h1></header>
+    <menu>
+        <img src="./home.png">
+        <img src="./znak.png">
+        <div>
+            <span><a href="./plik.html"> pobierz dokumenty</a></span>
+        </div>
+    </menu>
+    <div class="pudlo">
+        <section class="uzytek">
+            <h2>orientacyjny koszt paliwa</h2>
+            <p>rodzaj paliwa</p>
+            <input type="number" id="paliwo">
+            <p>ile?</p>
+            <input type="number" id="liczba"><br>
+            <button id="przycisk" onclick="klik()">oblicz</button>
+            <p id="tekst"></p>
+        </section>
+        <section class="obraz">
+            <img src="./samochodbeztla.png">
+        </section>
+    </div>
+    <footer>stronę opracował: SpoconyKaktus</footer>
 </body>
 </html>
