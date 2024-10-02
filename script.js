@@ -1,11 +1,10 @@
 
 function klik(){
-    var liczba = document.getElementById('liczba').value;
-    var paliwo = document.getElementById('paliwo').value;
+    let liczba = document.getElementById('liczba').value;
+    let paliwo = document.getElementById('paliwo').value;
     if (paliwo==1){
-        // let wynik = liczba*4;
-        // document.getElementById('tekst').innerHTML=wynik;
-        document.write("tekst");
+        let wynik = liczba*4;
+        document.getElementById('tekst').innerHTML=wynik;
     }
     else if (paliwo==2){
         let wynik = liczba*3.5;

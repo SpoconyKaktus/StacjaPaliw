@@ -3,8 +3,9 @@
     padding: 0;
 }
 body{
-    background-color: plum;
+    background-color: rgb(194, 0, 81);
     text-align: center;
+    color: white;
 }
 header{
     height: 15vh;
@@ -14,6 +15,9 @@ header{
     background-color: purple;
 }
 menu>img{
+    width: 7vw;
+}
+a>img{
     width: 7vw;
 }
 menu>div{
@@ -33,6 +37,7 @@ section, div{
     background-color: white;
     width: 60vw;
     height: 60vh;
+    color: black;
 }
 .pudlo{
     display: flex;
@@ -45,7 +50,7 @@ section, div{
     align-items: center;
 }
 footer{
-    background-color: rgb(94, 0, 94);
+    background-color: purple;
     display: flex;
     justify-content: center;
     align-items: center;
