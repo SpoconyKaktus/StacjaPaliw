@@ -12,7 +12,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: purple;
+    background-color: rgb(128, 0, 38);
 }
 menu>img{
     width: 7vw;
@@ -25,6 +25,7 @@ menu>div{
     align-items: flex-end;
 }
 menu{
+    margin-left: 5vw;
     display: flex;
     justify-content: space-between;
     width: 40vw;
@@ -39,6 +40,12 @@ section, div{
     height: 60vh;
     color: black;
 }
+h2, p, a{
+    color: rgb(0, 168, 0);
+}
+.uzytek >h2{
+    margin-left: 20vw;
+}
 .pudlo{
     display: flex;
     justify-content: space-between;
@@ -50,7 +57,7 @@ section, div{
     align-items: center;
 }
 footer{
-    background-color: purple;
+    background-color: rgb(128, 0, 38);
     display: flex;
     justify-content: center;
     align-items: center;
